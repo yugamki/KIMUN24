@@ -702,7 +702,7 @@ color:#ffffff;
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	content: "loading..";
+	content: "Loading";
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -712,7 +712,7 @@ color:#ffffff;
 	font-size: 24px;
 	line-height: 1em;
 	color: #f20487;
-	text-decoration: underline;
+	text-decoration: none;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
 } 
