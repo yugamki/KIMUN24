@@ -272,7 +272,7 @@ color:#ffffff;
 	color:#ffffff;
 	font-weight:400;
 	text-align:center;
-	background-color: #ec167f;
+	background-color: #1c94d2;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -282,7 +282,7 @@ color:#ffffff;
 }
 
 .btn-style-one:hover{
-	color:#ec167f;
+	color:#1c94d2;
 	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.10);
 	-moz-box-shadow: 0 10px 30px rgba(0,0,0,0.10);
 	-ms-box-shadow: 0 10px 30px rgba(0,0,0,0.10);
