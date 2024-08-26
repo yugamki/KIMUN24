@@ -7176,6 +7176,7 @@ img{
 	background-size: cover;
 	padding: 120px 0 140px;
 	background-attachment:fixed;
+	color: #1c94d2;
 }
 
 .video-section:before{
@@ -7184,7 +7185,8 @@ img{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background: rgb(247,0,104);
+	color: #1c94d2;
+	background: #1c94d2;
 	background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
 	background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
 	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%);
@@ -7203,7 +7205,7 @@ img{
 	display: block;
 	font-size: 18px;
 	line-height: 26px;
-	color: #ffbc00;
+	color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 15px;
@@ -7227,7 +7229,7 @@ img{
 	height: 100px;
 	width: 100px;
 	line-height: 100px;
-	background-color: #ffbc00;
+	background-color: #1c94d2;
 	padding-left: 0;
 	font-size: 50px;
 }
@@ -7241,6 +7243,7 @@ img{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
+	color: #1c94d2;
 }
 
 .play-now .icon{
@@ -9651,7 +9654,7 @@ img{
 .social-icon-colored li a:hover .fa-github,.social-icon-colored li a:hover .fa-github-alt,.social-icon-colored li a:hover .fa-github-square{background-color:#070709;} 
 .social-icon-colored li a:hover .fa-google-plus,.social-icon-colored li a:hover .fa-google-plus-g,.social-icon-colored li a:hover .fa-google-plus-square{background-color:#CF3D2E;} 
 .social-icon-colored li a:hover .fa-html5{background-color:#E54D26;}
-.social-icon-colored li a:hover .fa-instagram{background-color:#A1755C;}
+.social-icon-colored li a:hover .fa-instagram{background-color:#d62976;}
 .social-icon-colored li a:hover .fa-linkedin,.social-icon-colored li a:hover .fa-linkedin-in,.social-icon-colored li a:hover .fa-linkedin-square{background-color:#0085AE;} 
 .social-icon-colored li a:hover .fa-linux{background-color:#FBC002;color:#333;}
 .social-icon-colored li a:hover .fa-maxcdn{background-color:#F6AE1C;}
