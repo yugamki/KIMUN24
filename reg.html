@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
 
-    <title>Eventrox - Digital Events HTML Template | Pricing</title>
+    <title>Mun Kumaraguru</title>
 
     <!-- Stylesheets -->
 
@@ -949,7 +949,7 @@
                         event.preventDefault();
               
                         if (document.getElementById("amount").value == "") {
-                                      swal({
+                                      swal.fire({
                                   title: "Error",
                                   text: "Try refilling the form.",
                                   icon: "error",
@@ -977,7 +977,7 @@
               
                         document.getElementById("productinfo").value = "K - MUN";
                         if (!file) {
-                    swal({
+                    swal.fire({
                       title: "Error",
                       text: "Please select a file.",
                       icon: "error",
@@ -993,7 +993,7 @@
                   const maxSize = 2 * 1024 * 1024; // 2MB
               
                   if (!allowedExtensions.includes(fileExtension)) {
-                    swal({
+                    swal.fire({
                       title: "Invalid File Type",
                       text: "Only JPG, JPEG, PNG, and PDF files are allowed.",
                       icon: "error",
@@ -1005,7 +1005,7 @@
                   }
               
                   if (file.size > maxSize) {
-                    swal({
+                    swal.fire({
                       title: "File Too Large",
                       text: "File size must not exceed 2MB.",
                       icon: "error",
@@ -1401,6 +1401,9 @@
     <!-- Color Setting -->
 
     <script src="js/color-settings.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     </body>
 
