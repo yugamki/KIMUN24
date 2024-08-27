@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>K-MUN'24 Registration Form</title>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			body {
+				background-color: #f0f2f5;
+				font-family: 'Arial', sans-serif;
+			}
+			.container {
+				margin-top: 50px;
+				margin-bottom: 50px;
+				background-color: #ffffff;
+				padding: 30px;
+				border-radius: 15px;
+				box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+			}
+			h2 {
+				font-family: 'Roboto', sans-serif;
+				font-weight: bold;
+				color: #333333;
+			}
+			h4 {
+				font-family: 'Roboto', sans-serif;
+				font-weight: bold;
+				color: #0056b3;
+			}
+			p {
+				color: #555555;
+				font-size: 16px;
+				font-weight: 500;
+			}
+			.section-title {
+				font-size: 18px;
+				font-weight: bold;
+				color: #0056b3;
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+			.form-label {
+				font-weight: bold;
+				color: #333333;
+			}
+			.form-control,
+			.form-select {
+				border-radius: 8px;
+				border: 1px solid #ced4da;
+				transition: all 0.3s ease;
+			}
+			.form-control:focus,
+			.form-select:focus {
+				border-color: #495057;
+				box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+			}
+			.submit-btn {
+				background-color: #007bff;
+				color: white;
+				font-weight: bold;
+				border-radius: 25px;
+				padding: 10px 20px;
+				transition: background-color 0.3s ease;
+				box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+			}
+			.submit-btn:hover {
+				background-color: #0056b3;
+				box-shadow: 0 7px 20px rgba(0, 123, 255, 0.3);
+			}
+			.accordion-button:not(.collapsed) {
+				color: #007bff;
+				background-color: #e9ecef;
+			}
+			.brochure-link,
+			.matrix-link {
+				display: inline-block;
+				margin-top: 10px;
+				color: #007bff;
+				font-weight: bold;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+			.fee-list {
+				list-style: none;
+				padding: 0;
+				margin-top: 10px;
+			}
+			.fee-list li {
+				margin-bottom: 5px;
+				color: #333333;
+			}
+		</style>
+	</head>
+	<body>
+		<div
+			class="container">
+			<!-- Event Details -->
+			<h2 class="text-center mb-4">KUMARAGURU MODEL UNITED NATIONS 2024 (K-MUN'24)</h2>
+			<p class="text-center mb-4">"Empowering voices, Embracing change"</p>
+			<div class="text-center">
+				<p>
+					<strong>DATE:</strong>
+					14-16th OCTOBER 2024</p>
+				<p>
+					<strong>DAY:</strong>
+					Monday, Tuesday, Wednesday</p>
+			</div>
+
+			<!-- Committees -->
+			<div class="section-title">Committees:</div>
+			<ul class="fee-list">
+				<li>United Nations Security Council (UNSC)</li>
+				<li>UNHRC</li>
+				<li>AIPPM</li>
+				<li>IPC</li>
+				<li>UNEP</li>
+			</ul>
+
+			<!-- Brochure and Matrix Links -->
+			<div class="brochure-link">BROCHURE</div>
+			<div class="matrix-link">MATRIX</div>
+
+			<!-- Fees -->
+			<div class="section-title">Fees:</div>
+			<ul class="fee-list">
+				<li>
+					<strong>Accommodation Fees:</strong>
+					1800 INR (For 3 days, including food)</li>
+				<li>
+					<strong>School student registration fee:</strong>
+					1400 INR</li>
+				<li>
+					<strong>College student registration fee:</strong>
+					1650 INR</li>
+				<li>
+					<strong>Kumaraguru institution student registration fee:</strong>
+					1550 INR</li>
+			</ul>
+			<p class="text-danger">
+				<em>*Kindly note that the fees are non-refundable under any circumstances.</em>
+			</p>
+
+			<!-- Contact Information -->
+			<div class="section-title">For Queries:</div>
+			<p>Please reach out to the following in case of any queries and follow our Instagram handle for further details and updates:</p>
+			<ul class="fee-list">
+				<li>Delegate Affairs Team</li>
+				<li>Technology Team</li>
+			</ul>
+
+			<p>We cherish the opportunity to have crossed paths with you and look forward to your presence on the remarkable journey that is this conference.</p>
+
+			<!-- Registration Form -->
+			<form
+				id="paymentForm" method="POST" action="https://script.google.com/macros/s/AKfycbz5ksZTGnvhuSAcLUfdxHE4xa0fzt-zpR99N4kJ5zcEgysfc5dfCojmkIQDII7fe9cw/exec" class="needs-validation" enctype="multipart/form-data" novalidate>
+				<!-- Personal Details -->
+				<div class="form-section mb-4">
+					<div class="mb-3">
+						<label for="name" class="form-label">Name</label>
+						<input type="text" class="form-control" id="name" name="firstname" placeholder="Enter your full name" required>
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email</label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+					</div>
+					<div class="mb-3">
+						<label for="phone" class="form-label">Phone Number</label>
+						<input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+					</div>
+					<div class="mb-3">
+						<label for="gender" class="form-label">Gender</label>
+						<select class="form-select" id="gender" name="gender" required>
+							<option value="">Select one</option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+						</select>
+					</div>
+					<div class="mb-3">
+						<label for="headDelegate" class="form-label">Are you Head Delegate?</label>
+						<select class="form-select" id="headDelegate" name="headDelegate" required>
+							<option value="">Select one</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+						</select>
+					</div>
+				</div>
+
+				<!-- Type of Institute -->
+				<div class="form-section mb-4">
+					<div class="mb-3">
+						<label for="instituteType" class="form-label">Type of Institute</label>
+						<select class="form-select" id="instituteType" name="instituteType" onchange="toggleInstituteFields()" required>
+							<option value="">Select one</option>
+							<option value="School">School</option>
+							<option value="College">College</option>
+						</select>
+					</div>
+
+					<!-- School Fields -->
+					<div id="schoolFields" style="display: none;">
+						<div class="mb-3">
+							<label for="schoolName" class="form-label">Enter Name of School</label>
+							<input type="text" class="form-control" id="schoolName" name="schoolName" placeholder="Enter school name">
+						</div>
+						<div class="mb-3">
+							<label for="schoolCity" class="form-label">Enter City of School</label>
+							<input type="text" class="form-control" id="schoolCity" name="schoolCity" placeholder="Enter city of school">
+						</div>
+						<div class="mb-3">
+							<label for="grade" class="form-label">Enter Grade</label>
+							<select class="form-select" id="grade" name="grade">
+								<option value="">Select one</option>
+								<option value="9th Grade">9th Grade</option>
+								<option value="10th Grade">10th Grade</option>
+								<option value="11th Grade">11th Grade</option>
+								<option value="12th Grade">12th Grade</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- College Fields -->
+					<div id="collegeFields" style="display: none;">
+						<div class="mb-3">
+							<label for="kumaraguruStudent" class="form-label">Are you Kumaraguru Institutions student?</label>
+							<select class="form-select" id="kumaraguruStudent" name="kumaraguruStudent" onchange="toggleCollegeFields()" required>
+								<option value="">Select one</option>
+								<option value="Yes">Yes</option>
+								<option value="No">No</option>
+							</select>
+						</div>
+
+						<!-- Conditional Fields for Kumaraguru Students -->
+						<div id="kumaraguruRollNumber" style="display: none;">
+							<div class="mb-3">
+								<label for="rollNumber" class="form-label">Enter Roll Number</label>
+								<input type="text" class="form-control" id="rollNumber" name="rollNumber" placeholder="12ABC123" pattern="^[0-9]{2}[A-Z]{3}[0-9]{3}$" title="Roll number format should be 12ABC123">
+							</div>
+						</div>
+
+						<!-- Conditional Fields for Non-Kumaraguru Students -->
+						<div id="nonKumaraguruFields" style="display: none;">
+							<div class="mb-3">
+								<label for="collegeName" class="form-label">Enter Name of College</label>
+								<input type="text" class="form-control" id="collegeName" name="collegeName" placeholder="Enter college name">
+							</div>
+							<div class="mb-3">
+								<label for="yearOfStudy" class="form-label">Enter Year of Study</label>
+								<select class="form-select" id="yearOfStudy" name="yearOfStudy">
+									<option value="">Select one</option>
+									<option value="1st">1st</option>
+									<option value="2nd">2nd</option>
+									<option value="3rd">3rd</option>
+									<option value="4th">4th</option>
+									<option value="5th">5th</option>
+									<option value="Graduated">Graduated</option>
+								</select>
+							</div>
+							<div class="mb-3">
+								<label for="degreeName" class="form-label">Enter Degree Name</label>
+								<input type="text" class="form-control" id="degreeName" name="degreeName" placeholder="Enter degree name">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Accommodation -->
+				<div class="form-section mb-4">
+					<div class="mb-3">
+						<label class="form-label">Do you need accommodation?</label>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="accommodation" id="accommodationYes" value="Yes" required>
+							<label class="form-check-label" for="accommodationYes">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="accommodation" id="accommodationNo" value="No">
+							<label class="form-check-label" for="accommodationNo">No</label>
+						</div>
+					</div>
+				</div>
+
+				<!-- ID Card Upload -->
+				<div class="form-section mb-4">
+					<div class="mb-3">
+						<label for="idCard" class="form-label">Aadhar Card/ID Card (Upload)</label>
+						<input type="file" class="form-control" id="idCard" name="idCard" accept="image/*,application/pdf" required>
+					</div>
+				</div>
+
+				<!-- Experience and Achievements -->
+				<div class="form-section mb-4">
+					<div class="mb-3">
+						<label for="achievements" class="form-label">Achievements in MUNs (Total online & offline MUNs with merit)</label>
+						<input type="number" class="form-control" id="achievements" name="achievements" placeholder="Enter total number of merits">
+					</div>
+				</div>
+
+				<!-- Committee Preferences in Accordion -->
+				<div class="accordion mb-4" id="committeeAccordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Preference 1
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#committeeAccordion">
+							<div class="accordion-body">
+								<div class="mb-3">
+									<label for="committeePref1" class="form-label">Committee Preference 1</label>
+									<select class="form-select" id="committeePref1" name="committeePref1" required>
+										<option value="">Select one</option>
+										<option value="UNSC">UNSC</option>
+										<option value="UNHRC">UNHRC</option>
+										<option value="UNEP">UNEP</option>
+										<option value="AIPPM">AIPPM</option>
+										<option value="IPC">IPC</option>
+										<option value="CCC">CCC</option>
+									</select>
+								</div>
+								<div class="row">
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref1-1" class="form-label">Portfolio Preference 1</label>
+										<input type="text" class="form-control" id="portfolioPref1_1" name="portfolioPref1_1" placeholder="Portfolio 1" required>
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref1-2" class="form-label">Portfolio Preference 2</label>
+										<input type="text" class="form-control" id="portfolioPref1_2" name="portfolioPref1_2" placeholder="Portfolio 2">
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref1-3" class="form-label">Portfolio Preference 3</label>
+										<input type="text" class="form-control" id="portfolioPref1_3" name="portfolioPref1_3" placeholder="Portfolio 3">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Preference 2
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#committeeAccordion">
+							<div class="accordion-body">
+								<div class="mb-3">
+									<label for="committeePref2" class="form-label">Committee Preference 2</label>
+									<select class="form-select" id="committeePref2" name="committeePref2" required>
+										<option value="">Select one</option>
+										<option value="UNSC">UNSC</option>
+										<option value="UNHRC">UNHRC</option>
+										<option value="UNEP">UNEP</option>
+										<option value="AIPPM">AIPPM</option>
+										<option value="IPC">IPC</option>
+										<option value="CCC">CCC</option>
+									</select>
+								</div>
+								<div class="row">
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref2-1" class="form-label">Portfolio Preference 1</label>
+										<input type="text" class="form-control" id="portfolioPref2_1" name="portfolioPref2_1" placeholder="Portfolio 1" required>
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref2-2" class="form-label">Portfolio Preference 2</label>
+										<input type="text" class="form-control" id="portfolioPref2_2" name="portfolioPref2_2" placeholder="Portfolio 2">
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref2-3" class="form-label">Portfolio Preference 3</label>
+										<input type="text" class="form-control" id="portfolioPref2_3" name="portfolioPref2_3" placeholder="Portfolio 3">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Preference 3
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#committeeAccordion">
+							<div class="accordion-body">
+								<div class="mb-3">
+									<label for="committeePref3" class="form-label">Committee Preference 3</label>
+									<select class="form-select" id="committeePref3" name="committeePref3" required>
+										<option value="">Select one</option>
+										<option value="UNSC">UNSC</option>
+										<option value="UNHRC">UNHRC</option>
+										<option value="UNEP">UNEP</option>
+										<option value="AIPPM">AIPPM</option>
+										<option value="IPC">IPC</option>
+										<option value="CCC">CCC</option>
+									</select>
+								</div>
+								<div class="row">
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref3-1" class="form-label">Portfolio Preference 1</label>
+										<input type="text" class="form-control" id="portfolioPref3_1" name="portfolioPref3_1" placeholder="Portfolio 1" required>
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref3-2" class="form-label">Portfolio Preference 2</label>
+										<input type="text" class="form-control" id="portfolioPref3_2" name="portfolioPref3_2" placeholder="Portfolio 2">
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="portfolioPref3-3" class="form-label">Portfolio Preference 3</label>
+										<input type="text" class="form-control" id="portfolioPref3_3" name="portfolioPref3_3" placeholder="Portfolio 3">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<button type="submit" class="btn submit-btn btn-block">Submit</button>
+			</form>
+
+			<!-- This is the missing response element -->
+			<p id="response" class="mt-4"></p>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script>
+			function toggleInstituteFields() {
+				var instituteType = document.getElementById('instituteType').value;
+				var schoolFields = document.getElementById('schoolFields');
+				var collegeFields = document.getElementById('collegeFields');
+
+				if (instituteType === 'School') {
+					schoolFields.style.display = 'block';
+					collegeFields.style.display = 'none';
+				} else if (instituteType === 'College') {
+					schoolFields.style.display = 'none';
+					collegeFields.style.display = 'block';
+				} else {
+					schoolFields.style.display = 'none';
+					collegeFields.style.display = 'none';
+				}
+			}
+
+			function toggleCollegeFields() {
+				var kumaraguruStudent = document.getElementById('kumaraguruStudent').value;
+				var kumaraguruRollNumber = document.getElementById('kumaraguruRollNumber');
+				var nonKumaraguruFields = document.getElementById('nonKumaraguruFields');
+
+				if (kumaraguruStudent === 'Yes') {
+					kumaraguruRollNumber.style.display = 'block';
+					nonKumaraguruFields.style.display = 'none';
+				} else if (kumaraguruStudent === 'No') {
+					kumaraguruRollNumber.style.display = 'none';
+					nonKumaraguruFields.style.display = 'block';
+				} else {
+					kumaraguruRollNumber.style.display = 'none';
+					nonKumaraguruFields.style.display = 'none';
+				}
+			}
+
+			document.getElementById('paymentForm').addEventListener('submit', function (event) {
+				event.preventDefault();
+
+				const submitButton = this.querySelector('button[type="submit"]');
+				submitButton.disabled = true;
+				submitButton.textContent = "Submitting...";
+
+				const fileInput = document.getElementById('idCard');
+				const file = fileInput.files[0];
+				const formData = new FormData(this);
+
+				if (file) {
+					const reader = new FileReader();
+					reader.onloadend = function () {
+						const base64data = reader.result.split(',')[1];
+						formData.set('idCard', base64data); // Send base64 data
+						formData.set('filename', file.name); // Send original filename
+						formData.set('mimeType', file.type); // Send MIME type
+
+						fetch('https://script.google.com/macros/s/AKfycbz5ksZTGnvhuSAcLUfdxHE4xa0fzt-zpR99N4kJ5zcEgysfc5dfCojmkIQDII7fe9cw/exec', {
+							method: 'POST',
+                            mode: 'no-cors',
+							body: formData
+						}).then(response => response.json()).then(data => {
+							if (data.success) {
+								swal({
+									title: "Success!",
+									text: "Your form was submitted successfully.",
+									icon: "success"
+								});
+							} else {
+								swal({
+									title: "Error",
+									text: "There was an error submitting the form: " + data.error + JSON.stringify(data),
+									icon: "error"
+								});
+							}
+						}).catch(error => {
+							swal({
+								title: "Error",
+								text: "There was an error submitting the form: " + error.message + JSON.stringify(error),
+								icon: "error"
+							});
+						}). finally(() => {
+							submitButton.disabled = false;
+							submitButton.textContent = "Submit";
+						});
+					};
+					reader.readAsDataURL(file);
+				} else {
+					swal({title: "Error", text: "Please select a file.", icon: "error"});
+					submitButton.disabled = false;
+					submitButton.textContent = "Submit";
+				}
+			});
+		</script>
+	</body>
+</html>
