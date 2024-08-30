@@ -184,7 +184,7 @@
 	 * @public
 	 */
 	Owl.Defaults = {
-		items: 3,
+		items: 1,
 		loop: false,
 		center: false,
 		rewind: false,
@@ -674,7 +674,7 @@
 	 * @protected
 	 */
 	Owl.prototype.registerEventHandlers = function() {
-		if ($.support.transition) {
+		/*if ($.support.transition) {
 			this.$stage.on($.support.transition.end + '.owl.core', $.proxy(this.onTransitionEnd, this));
 		}
 
@@ -682,16 +682,16 @@
 			this.on(window, 'resize', this._handlers.onThrottledResize);
 		}
 
-		if (this.settings.mouseDrag) {
+		/*if (this.settings.mouseDrag) {
 			this.$element.addClass(this.options.dragClass);
 			this.$stage.on('mousedown.owl.core', $.proxy(this.onDragStart, this));
 			this.$stage.on('dragstart.owl.core selectstart.owl.core', function() { return false });
-		}
+		}*/
 
-		if (this.settings.touchDrag){
+		/*if (this.settings.touchDrag){
 			this.$stage.on('touchstart.owl.core', $.proxy(this.onDragStart, this));
 			this.$stage.on('touchcancel.owl.core', $.proxy(this.onDragEnd, this));
-		}
+		}*/
 	};
 
 	/**
@@ -2587,7 +2587,7 @@
 	 */
 	Autoplay.Defaults = {
 		autoplay: false,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 0,
 		autoplayHoverPause: false,
 		autoplaySpeed: false
 	};
