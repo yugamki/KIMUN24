@@ -1694,6 +1694,7 @@ img{
 
 .banner-carousel{
 	position: relative;
+	margin-bottom: 50px;
 }
 
 .banner-carousel .slide-item{
@@ -1708,10 +1709,10 @@ img{
 .banner-carousel .slide-item:before{
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 100px;
 	height: 100%;
 	width: 100%;
-	background-color: #000000;
+	
 	opacity: .70;
 	content: "";
 }
@@ -2817,7 +2818,7 @@ img{
 	position: relative;
 	display: block;
 	padding: 30px 80px;
-	background-color: #1c94d2;
+	background-color: #38393b;
 	text-align: center;
 	margin-top: -72px;
 	
