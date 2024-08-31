@@ -236,17 +236,17 @@ img{
 
 
 ::selection {
-background:#ec167f;
+background:#0b13f2;
 color:#ffffff;
 }
 
 ::-moz-selection {
-background:#ec167f;
+background:#0b13f2;
 color:#ffffff;
 }
 
 ::-webkit-selection {
-background:#ec167f;
+background:#0b13f2;
 color:#ffffff;
 }
 
