@@ -877,9 +877,9 @@ img{
 	color: #ff8a01;
 	font-weight: 500;
 	background: #394963;
-	background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 25%, rgba(247,0,104,1) 75%, rgba(68,16,102,1) 100%);
+	/* background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 25%, rgba(247,0,104,1) 75%, rgba(68,16,102,1) 100%);
 	background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%);
-	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%);
+	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%); */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
 	color: transparent;
 	-webkit-background-clip: text;
@@ -1048,9 +1048,9 @@ img{
 	-o-transform: scale(-1);
 	transform: scale(-1);
 	background: #1c94d2;
-	background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
+	/* background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
 	background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
-	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%);
+	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%); */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
@@ -7207,7 +7207,7 @@ img{
 	background: #1c94d2;
 	background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
 	background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
-	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%);
+	/* background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%); */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
 	opacity: .70;
 	content: "";
@@ -8361,7 +8361,7 @@ img{
 	bottom: 0;
 	height: 1px;
 	width: 40px;
-	background-color: #f70068;
+	background-color: #ffffff;
 	content: '';
 }
 
@@ -8490,7 +8490,7 @@ img{
 	color: #ffffff;
 	font-weight: 400;
 	padding: 0 15px;
-	border-left: 1px solid #f70068; 
+	border-left: 1px solid #ffffff; 
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
