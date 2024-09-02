@@ -134,7 +134,7 @@ body {
 a{
 	text-decoration:none;
 	cursor:pointer;
-	color:#f20487;
+	color:#00315B;
 }
 
 button,
@@ -4091,14 +4091,14 @@ img{
 	display: inline-block;
 	padding: 10px 30px;
 	padding-right: 10px;
-	background-color: #f20487;
+	background-color: #00315B;
 }
 
 .speaker-block-three .info-box:before{
 	position: absolute;
 	left: 0;
 	right: -30px;
-	background-color: #f20487;
+	background-color: #00315B;
 	content:"";
 	top: 0;
 	height: 100%;
@@ -6769,7 +6769,7 @@ img{
 	top: 40px;
 	font-size: 30px;
 	line-height: 1em;
-	color:#f20487;
+	color:#00315B;
 }
 
 .blog-single .lower-content blockquote p{
@@ -6785,7 +6785,7 @@ img{
 	display: block;
 	font-size: 15px;
 	line-height: 30px;
-	color: #f20487;
+	color: #00315B;
 	font-weight: 400;
 	font-style: normal;
 	padding-left: 30px;
@@ -6797,7 +6797,7 @@ img{
 	top:14px;
 	height: 1px;
 	width: 20px;
-	background-color: #f20487;
+	background-color: #00315B;
 	content: "";
 }
 
@@ -7144,7 +7144,7 @@ img{
 
 .coming-soon .emailed-form .form-group input[type="submit"]:hover,
 .coming-soon .emailed-form button:hover{
-	color: #f20487;
+	color: #00315B;
 }
 
 .coming-soon .icon-circle-blue{
@@ -7644,7 +7644,7 @@ img{
 .contact-form .form-group input:focus,
 .contact-form .form-group select:focus,
 .contact-form .form-group textarea:focus{
-	border-color:#f20487;
+	border-color:#00315B;
 }
 
 .contact-form .form-group textarea{
@@ -7729,7 +7729,7 @@ img{
 }
 
 .contact-page-section .contact-info li a:hover{
-	color: #f20487;
+	color: #00315B;
 }
 
 
@@ -8893,7 +8893,7 @@ img{
 }
 
 .main-footer.style-three .footer-nav li a:hover{
-	color: #f20487;
+	color: #00315B;
 }
 
 .main-footer.style-three .copyright-text{
