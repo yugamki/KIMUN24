@@ -1025,7 +1025,7 @@ img{
 	line-height:30px;
 	font-weight:500;
 	padding: 10px 0;
-	color:#fefefe;
+	color:#101130;
 	opacity:1;
 	text-align:center;
 	-webkit-transition:all 300ms ease;
@@ -1484,7 +1484,7 @@ img{
 
 .main-header.fixed-header .main-box{
 	padding: 10px 0;
-	background-color: #101130;
+	background-color: #ffffff;
 }
 
 /*** 
@@ -1702,6 +1702,7 @@ img{
 }
 
 .banner-carousel .slide-item{
+	margin-top: 110px;
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2125,7 +2126,7 @@ img{
 
 .banner-conference-two .time-counter{
 	position:relative;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 .banner-conference-two .time-countdown{
@@ -2487,22 +2488,24 @@ img{
 ***/
 .abtimg {
     display: block;              /* Ensures the image is treated as a block element */
-    margin-top: 0px ;
-	margin-bottom: 0px;              /* Centers the image horizontally */
+    margin-top: -150px ;
+	margin-bottom: -125px;              /* Centers the image horizontally */
     width: 100%;                 /* Makes the image take up the full width of its container */
     height: auto;                /* Maintains the aspect ratio of the image */
-    object-fit: cover;           /* Ensures the image covers the container without distortion */
+    object-fit: cover;     
+	      /* Ensures the image covers the container without distortion */
 }
 
 .about-section{
 	position: relative;
 	padding: 120px 0 70px;
+	margin: 0px;
 	/*background-color: #00555C;*/
 }
 
 .about-section .content-column{
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: -200px;
 }
 
 .about-section .content-column .inner-column{
@@ -2512,7 +2515,7 @@ img{
 
 .about-section .content-column .sec-title{
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .about-section .content-column .sec-title .text{
@@ -2831,11 +2834,11 @@ img{
 .coming-soon-section .outer-box{
 	position: relative;
 	display: block;
-	padding: 30px 80px;
+	padding: 30px 30px;
 	background-color: #38393b;
 	text-align: center;
 	margin-top: -72px;
-	
+	margin-bottom: 0px;
 }
 
 .coming-soon-section .timer-column{
@@ -3091,6 +3094,7 @@ img{
 .features-section-two{
 	position: relative;
 	padding: 120px 0 100px;
+	margin-top: 0px;
 }
 
 .features-section-two .title-block{
@@ -3114,6 +3118,7 @@ img{
 .feature-block-two{
 	position: relative;
 	margin-bottom: 40px;
+	margin-top: 0px;
 }
 
 .feature-block-two .inner-box{
@@ -3527,6 +3532,7 @@ img{
 .speakers-section{
 	position: relative;
 	padding: 120px 0 90px;
+	margin-top: -50px;
 }
 
 .speakers-section:before{
@@ -3541,7 +3547,7 @@ img{
 
 .speaker-block{
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .speaker-block .inner-box{
@@ -5029,6 +5035,8 @@ img{
 	position: relative;
 	padding: 120px 0 80px;
 	overflow: hidden;
+	margin-top: -150px;
+	margin-bottom: 0px;
 }
 
 .pricing-section .outer-box{
